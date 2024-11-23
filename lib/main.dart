@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_da_ulearning_app/pages/welcome/welcome.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(),
+      home: const Welcome(),
     );
   }
 }
